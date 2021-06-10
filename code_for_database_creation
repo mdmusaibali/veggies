@@ -1,0 +1,8 @@
+create database join_us;
+
+use join_us;
+
+create table users(
+  email varchar(100) PRIMARY KEY,
+  created_at TIMESTAMP default now()
+);
