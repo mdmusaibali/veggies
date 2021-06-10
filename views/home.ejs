@@ -1,0 +1,31 @@
+<head>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&family=Viaoda+Libre&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="/app.css" />
+</head>
+
+<body>
+  <div class="flex-container">
+    <div class="container">
+      <h1>VEGGIES</h1>
+      <div class="para">
+        <p class="lead">
+          Enter your email to get updates on arrival of fresh veggies<br />
+          We are now family of <strong><%= count %></strong> members thanks to
+          you
+        </p>
+      </div>
+      <form method="POST" action="/register">
+        <input
+          type="text"
+          class="form"
+          name="email"
+          placeholder="Enter Your Email"
+        />
+        <button>Join Now</button>
+      </form>
+    </div>
+  </div>
+</body>
